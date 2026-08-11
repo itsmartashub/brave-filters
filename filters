@@ -34,6 +34,9 @@ chat.deepseek.com##._77cefa5 ._6dbc175:style(display: none !important)
 chat.deepseek.com##._77cefa5 ._27c924:style(min-height: 0 !important)
 chat.deepseek.com##._77cefa5 .b13855df:style(min-height: 0 !important)
 
+! Degoog.org - AMOLED
+degoog.org##[data-theme=dark]:style(--bg: #000000 !important; --bg-light: #121212 !important; --search-bar-bg: #121212 !important; --btn-bg: #131313 !important; --search-bar-bg-hover: #141414 !important)
+
 ! Qwen - AMOLED x blue-ish user bubble
 chat.qwen.ai##html.dark:style(--container-primary-bgweb: #000 !important; --container-secondary-bgweb: #000 !important; --line-secondary-border: #111111 !important)
 chat.qwen.ai##.message-input-wrapper .message-input-container:style(background: rgba(37, 37, 37, .6) !important)
