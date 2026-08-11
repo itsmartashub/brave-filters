@@ -19,6 +19,9 @@ claude.ai##[data-mode="dark"] [data-cds="UserMessage"] .bg-neutral:style(backgro
 daily.dev##html.auto:style(--theme-background-default: #000000 !important; --theme-background-subtle: #000000 !important; --theme-border-bolder-quaternary: color-mix(in srgb, var(--theme-border-bolder-primary), transparent 82%) !important; --theme-border-subtlest-secondary: color-mix(in srgb, var(--theme-border-subtlest-primary), transparent 70%) !important; --theme-blur-blur-baseline: color-mix(in srgb, #000000, transparent 12%) !important)
 daily.dev##html.auto .invert .invert:style(--theme-background-default: #000000 !important; --theme-background-subtle: #000000 !important; --theme-border-bolder-quaternary: color-mix(in srgb, var(--theme-border-bolder-primary), transparent 82%) !important; --theme-border-subtlest-secondary: color-mix(in srgb, var(--theme-border-subtlest-primary), transparent 70%) !important; --theme-blur-blur-baseline: color-mix(in srgb, #000000, transparent 12%) !important)
 
+! Daily.dev - Hide Advertise Cards
+daily.dev##article:has(a[href="https://r.daily.dev/business"]):style(display: none !important)
+
 ! DeepSeek - AMOLED x chatbox transparentish x compact chatbox buttons x hide footer
 chat.deepseek.com##:root:style(--bg-chatbox: rgba(37, 37, 37, .5); --filter: blur(22px) saturate(2))
 chat.deepseek.com##body[data-ds-dark-theme]:style(--dsw-alias-bg-base: black !important; --dsw-specific-sidebar-fill: black !important)
