@@ -1,5 +1,5 @@
 export default {
-  name: ' Daily.dev - Hide Advertise Cards',
+  name: 'Daily.dev - Hide Advertise Cards',
 
   domains: [
     'daily.dev',
