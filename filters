@@ -1,0 +1,37 @@
+! THIS FILE IS GENERATED.
+! DO NOT EDIT IT DIRECTLY.
+
+! ChatGPT - Hide elements
+chatgpt.com##[data-testid="model-switcher-dropdown-button"]:style(display: none !important)
+chatgpt.com##[data-testid="share-chat-button"]:style(display: none !important)
+chatgpt.com##[data-testid="thread-disclaimer"]:style(display: none !important)
+chatgpt.com##header button.button-glimmer-cta:style(display: none !important)
+chatgpt.com##.__menu-item[data-testid="accounts-profile-button"]~div>button.h-8.w-full.bg-token-bg-primary:style(display: none !important)
+chatgpt.com##.__menu-item[data-testid="accounts-profile-button"] button[data-trailing-button]:style(display: none !important)
+
+! Claude - AMOLED x chatbox transparentish x accent-ish user bubble
+claude.ai##:root:style(--c-black: #000; --bg-chatbox: rgba(37, 37, 37, .5); --bg-user-msg: hsla(from var(--cds-clay) h calc(s * 0.4) 15% / 1); --filter: blur(22px) saturate(2))
+claude.ai##[data-mode="dark"]:style(--cds-surface-1: var(--c-black) !important; --cds-surface-3: #131313 !important)
+claude.ai##[data-mode="dark"] [data-chat-input-container="true"] fieldset .bg-surface-3:style(--cds-surface-3: var(--bg-chatbox) !important; --tw-bg-opacity: 0.38 !important; backdrop-filter: var(--filter))
+claude.ai##[data-mode="dark"] [data-cds="UserMessage"] .bg-neutral:style(background: var(--bg-user-msg, #131313) !important)
+
+! Daily.dev - AMOLED
+daily.dev##html.auto:style(--theme-background-default: #000000 !important; --theme-background-subtle: #000000 !important; --theme-border-bolder-quaternary: color-mix(in srgb, var(--theme-border-bolder-primary), transparent 82%) !important; --theme-border-subtlest-secondary: color-mix(in srgb, var(--theme-border-subtlest-primary), transparent 70%) !important; --theme-blur-blur-baseline: color-mix(in srgb, #000000, transparent 12%) !important)
+daily.dev##html.auto .invert .invert:style(--theme-background-default: #000000 !important; --theme-background-subtle: #000000 !important; --theme-border-bolder-quaternary: color-mix(in srgb, var(--theme-border-bolder-primary), transparent 82%) !important; --theme-border-subtlest-secondary: color-mix(in srgb, var(--theme-border-subtlest-primary), transparent 70%) !important; --theme-blur-blur-baseline: color-mix(in srgb, #000000, transparent 12%) !important)
+
+! DeepSeek - AMOLED x chatbox transparentish x compact chatbox buttons x hide footer
+chat.deepseek.com##:root:style(--bg-chatbox: rgba(37, 37, 37, .5); --filter: blur(22px) saturate(2))
+chat.deepseek.com##body[data-ds-dark-theme]:style(--dsw-alias-bg-base: black !important; --dsw-specific-sidebar-fill: black !important)
+chat.deepseek.com##body[data-ds-dark-theme] ._77cefa5:style(backdrop-filter: var(--filter); background: var(--bg-chatbox) !important)
+chat.deepseek.com##._0fcaa63:style(opacity: 0; padding: 0 !important)
+chat.deepseek.com##._77cefa5 ._6dbc175:style(display: none !important)
+chat.deepseek.com##._77cefa5 ._27c924:style(min-height: 0 !important)
+chat.deepseek.com##._77cefa5 .b13855df:style(min-height: 0 !important)
+
+! Qwen - AMOLED x blue-ish user bubble
+chat.qwen.ai##html.dark:style(--container-primary-bgweb: #000 !important; --container-secondary-bgweb: #000 !important; --line-secondary-border: #111111 !important)
+chat.qwen.ai##.message-input-wrapper .message-input-container:style(background: rgba(37, 37, 37, .6) !important)
+chat.qwen.ai##.chat-user-message:style(background: oklch(from var(--character-brandprimary-text) l c h / 0.25) !important)
+
+! Qwen - Hide footer
+chat.qwen.ai##.chat-container-statement:style(opacity: 0 !important; padding: 0 !important)
